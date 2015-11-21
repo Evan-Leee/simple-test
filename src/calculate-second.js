@@ -1,5 +1,4 @@
 function calculate_median(arr) {
-    var result = [];
     var temp = [];
 
     temp = arr.filter(function (item, i) {
