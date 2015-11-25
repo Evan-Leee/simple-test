@@ -5,7 +5,7 @@ function calculate_median(arr) {
         return (i + 1) % 2 === 0;
     }).sort(function(a,b){return a - b;});
 
-    
+
     var index;
     if (temp.length % 2 === 0) {
         index = temp.length / 2 - 1;
